@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best AI Tools - AI Explorer</title>
+    <style>
+        /* 复用首页的样式，保持风格统一 */
+        :root { --bg-color: #0f172a; --card-bg: #1e293b; --text-main: #f8fafc; --text-muted: #94a3b8; --accent: #38bdf8; }
+        body { margin: 0; font-family: 'Segoe UI', system-ui, sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; padding: 20px; }
+        a { text-decoration: none; color: inherit; }
+        
+        /* 简单的返回按钮 */
+        .back-link { display: inline-block; margin-bottom: 20px; color: var(--accent); font-weight: bold; }
+        .back-link:hover { text-decoration: underline; }
+
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { font-size: 2.5rem; color: var(--accent); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 20px; }
+
+        /* 工具列表样式 */
+        .tool-item {
+            background: var(--card-bg);
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            border-left: 5px solid var(--accent);
+            transition: 0.3s;
+        }
+        .tool-item:hover { transform: translateX(10px); }
+        .tool-name { font-size: 1.5rem; font-weight: bold; margin: 0 0 10px 0; }
+        .tool-tag { background: rgba(56, 189, 248, 0.2); color: var(--accent); padding: 3px 10px; border-radius: 15px; font-size: 0.8rem; margin-left: 10px; vertical-align: middle; }
+        .tool-desc { color: var(--text-muted); margin-bottom: 15px; }
+        .visit-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: #0f172a;
+            padding: 8px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .visit-btn:hover { opacity: 0.9; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+
+        <h1>🛠️ Essential AI Tools</h1>
+        <p style="color: #94a3b8; margin-bottom: 40px;">Stop looking for thousands of tools. These are the only 3 you need to get started.</p>
+
+        <div class="tool-item">
+            <div class="tool-name">ChatGPT <span class="tool-tag">Writing & Coding</span></div>
+            <p class="tool-desc">The most famous AI chatbot. Use it to write essays, fix your code, or translate languages naturally.</p>
+            <a href="https://chat.openai.com" target="_blank" class="visit-btn">Visit Website</a>
+        </div>
+
+        <div class="tool-item">
+            <div class="tool-name">Midjourney <span class="tool-tag">Art Generation</span></div>
+            <p class="tool-desc">The best AI for creating high-quality images. It runs on Discord and can make anything from logos to photorealistic people.</p>
+            <a href="https://www.midjourney.com" target="_blank" class="visit-btn">Visit Website</a>
+        </div>
+
+        <div class="tool-item">
+            <div class="tool-name">Gamma <span class="tool-tag">PPT / Slides</span></div>
+            <p class="tool-desc">Hate making PowerPoint? Gamma creates beautiful presentation slides for you in seconds. Just type a topic.</p>
+            <a href="https://gamma.app" target="_blank" class="visit-btn">Visit Website</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

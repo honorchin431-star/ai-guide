@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Dictionary - AI Explorer</title>
+    <style>
+        :root { --bg-color: #0f172a; --card-bg: #1e293b; --text-main: #f8fafc; --text-muted: #94a3b8; --accent: #a855f7; } /* 紫色主题 */
+        body { margin: 0; font-family: 'Segoe UI', system-ui, sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; padding: 20px; }
+        a { text-decoration: none; color: inherit; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: var(--accent); font-weight: bold; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { font-size: 2.5rem; color: var(--accent); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 20px; }
+        
+        .term-item { margin-bottom: 30px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 20px; }
+        .term-title { font-size: 1.5rem; font-weight: bold; color: #fff; margin-bottom: 10px; }
+        .term-desc { color: var(--text-muted); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+        <h1>📚 AI Dictionary</h1>
+        
+        <div class="term-item">
+            <div class="term-title">LLM (Large Language Model)</div>
+            <div class="term-desc">Think of it as a super-smart parrot that has read every book on the internet. It predicts the next word to write sentences. (e.g. ChatGPT, Claude)</div>
+        </div>
+
+        <div class="term-item">
+            <div class="term-title">Prompt</div>
+            <div class="term-desc">The instruction or question you give to the AI. "Garbage in, garbage out" — better prompts get better answers.</div>
+        </div>
+
+        <div class="term-item">
+            <div class="term-title">Hallucination</div>
+            <div class="term-desc">When AI confidently tells a lie. It doesn't know it's lying; it's just guessing wrong. Always check the facts!</div>
+        </div>
+    </div>
+</body>
+</html>

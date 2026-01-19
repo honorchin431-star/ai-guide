@@ -5,72 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Explorer - Simple Guide to AI</title>
     <style>
-        :root {
-            --bg-color: #0f172a;
-            --card-bg: #1e293b;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --accent: #38bdf8;
-            --accent-glow: rgba(56, 189, 248, 0.5);
-        }
+        :root { --bg-color: #0f172a; --card-bg: #1e293b; --text-main: #f8fafc; --text-muted: #94a3b8; --accent: #38bdf8; --accent-glow: rgba(56, 189, 248, 0.5); }
         body { margin: 0; font-family: 'Segoe UI', system-ui, sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; }
         a { text-decoration: none; color: inherit; }
         nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
         .logo { font-size: 1.5rem; font-weight: bold; color: var(--accent); }
-        .nav-links a { margin-left: 20px; color: var(--text-muted); transition: 0.3s; }
-        .nav-links a:hover { color: var(--accent); }
         header { text-align: center; padding: 80px 20px; background: radial-gradient(circle at center, #1e293b 0%, #0f172a 70%); }
         h1 { font-size: 3rem; margin-bottom: 1rem; background: linear-gradient(to right, #38bdf8, #a855f7); -webkit-background-clip: text; color: transparent; }
         .subtitle { font-size: 1.2rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 2rem; }
         .btn { background: var(--accent); color: #0f172a; padding: 12px 30px; border-radius: 25px; font-weight: bold; box-shadow: 0 0 15px var(--accent-glow); transition: 0.3s; }
-        .btn:hover { transform: scale(1.05); box-shadow: 0 0 25px var(--accent-glow); }
         .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
-        .section-title { text-align: center; margin-bottom: 40px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
         .card { background: var(--card-bg); padding: 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); transition: 0.3s; display: block; }
         .card:hover { transform: translateY(-5px); border-color: var(--accent); }
         .card h3 { margin-top: 0; color: var(--accent); }
-        .card p { color: var(--text-muted); font-size: 0.9rem; }
-        footer { text-align: center; padding: 40px; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.8rem; }
+        footer { text-align: center; padding: 40px; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.1); }
     </style>
 </head>
 <body>
-    <nav>
-        <div class="logo">AI Explorer</div>
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="dictionary.html">Dictionary</a>
-            <a href="tools.html">Tools</a>
-        </div>
-    </nav>
+    <nav><div class="logo">AI Explorer</div></nav>
     <header>
         <h1>Don't Get Left Behind</h1>
-        <p class="subtitle">No complex jargon. No confusing code. Just a simple, practical guide to help you understand and master Artificial Intelligence.</p>
+        <p class="subtitle">A simple, practical guide to help you master AI.</p>
         <a href="#start" class="btn">Start Learning</a>
     </header>
     <div class="container" id="start">
-        <h2 class="section-title">What do you want to explore?</h2>
         <div class="grid">
             <a href="dictionary.html" class="card">
                 <h3>📚 AI Dictionary</h3>
-                <p>What is an LLM? What are Tokens? We explain complex AI terms in simple English.</p>
+                <p>Simple explanations for complex AI terms.</p>
             </a>
             <a href="tools.html" class="card">
                 <h3>🛠️ Essential Tools</h3>
-                <p>Forget the list of 1000 tools. Here are the top 5 AI tools you actually need for school and work.</p>
+                <p>The top AI tools you actually need for school.</p>
             </a>
-            <div class="card">
-                <h3>🎨 AI Art Generator</h3>
-                <p>Coming Soon: Learn how to generate your first AI image.</p>
-            </div>
-            <div class="card">
-                <h3>🤖 Prompt Secrets</h3>
-                <p>Coming Soon: Copy our templates to make AI smarter instantly.</p>
-            </div>
         </div>
     </div>
-    <footer>
-        <p>© 2026 AI Explorer | Built by a Student Developer</p>
-    </footer>
+    <footer><p>© 2026 AI Explorer | Student Developer</p></footer>
 </body>
 </html>
